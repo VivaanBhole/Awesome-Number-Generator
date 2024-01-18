@@ -2,7 +2,7 @@ import random
 
 import streamlit as st
 
-st.button('red[penis]')
+f = st.button('red[button]')
 
-if(st.button('red[penis')):
-    print(random.Random(9)+1)
+if(f):
+    st.text(str(random.Random(9)+1))
